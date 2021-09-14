@@ -6,6 +6,8 @@ public class Demo2 {
         int i;
         for (i = 1; i <= 5;i++){
             System.out.println(i);
+            System.out.println(i);
+            System.out.println(i);
         }
     }
 }
