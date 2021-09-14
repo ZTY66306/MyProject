@@ -9,6 +9,8 @@ public class Demo2 {
             System.out.println(i);
             System.out.println(i);
             System.out.println(i);
+            System.out.println("dev01当中新的代码");
+            System.out.println("master 代码");
             System.out.println("master 代码");
         }
     }
