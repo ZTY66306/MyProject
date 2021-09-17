@@ -14,6 +14,7 @@ public class Demo {
 //        线程的休闲几越高，抢到cpu的几率越高
         t.setPriority(5);
         t.setName("飞机");
+
 //        t.start();
 //        run 方法没有开启线程
     }
