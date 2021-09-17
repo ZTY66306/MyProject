@@ -5,6 +5,7 @@ public class Demo {
         MyDemo t1= new MyDemo();
         Thread t2=new Thread(t1);
         t2.start();
+        System.out.println("dsad");
 //        run 方法没有开启线程
     }
 }
