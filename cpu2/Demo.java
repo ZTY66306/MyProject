@@ -2,10 +2,9 @@ package com.heima.cpu2;
 
 public class Demo {
     public static void main(String[] args) {
-        MyDemo t1= new MyDemo();
-        Thread t2=new Thread(t1);
-        t2.start();
-        System.out.println("dsad");
+        System.out.println(Thread.currentThread().getName());
+        MyDemo t1= new MyDemo("小强");
+//        t1.start();
 //        run 方法没有开启线程
     }
 }
