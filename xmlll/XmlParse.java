@@ -13,16 +13,17 @@ import java.util.List;
 public class XmlParse {
     public static void main(String[] args) throws DocumentException {
         SAXReader reader=new SAXReader();
-        Document document=reader.read((new File("myIdeaTest\\src\\com\\STUDENT.xml")));
+        Document document=reader.read((new File("C:\\Users\\Administrator\\Desktop\\BasicProject\\xml\\STUDENT.xml")));
 
         Element rootElement = document.getRootElement();
+
 
         List elements = rootElement.elements();
         System.out.println(elements.size());
 
         ArrayList<Student> list = new ArrayList<Student>();
 
-//        带参数的elements
+//        得到所有学生的element
         List<Element> studentElements1 = rootElement.elements("student");
         for (Element element : studentElements1) {
             Attribute id = element.attribute("id");
